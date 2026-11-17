@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plans With Paws — Shop</title><meta name="description" content="Funny dog &amp; cat shirts, sweatshirts and mugs. Printed on demand in the US.">
+<meta property="og:title" content="Plans With Paws — Shop"><meta property="og:description" content="Funny dog &amp; cat shirts, sweatshirts and mugs.">
+<style>body{margin:0;height:100vh;display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif;background:#fff;color:#222}</style>
+</head><body><p>🐾 Plans With Paws…</p>
+<script>
+(function () {
+  var p = (new URLSearchParams(location.search).get("p") || "").replace(/[^0-9]/g, "");
+  var boutique = "https://plans-with-paws.printify.me" + (p ? "/product/" + p : "");
+  var parti = false;
+  function go() { if (!parti) { parti = true; location.replace(boutique); } }
+  try { fetch("https://script.google.com/macros/s/AKfycbw7bDpoyqGxYCMbLgM4fGmK-rVZWtf_cYdKno8brb_HWyiZC3cutcnbTNd0gU5bqM-BMA/exec?log=instagram" + (p ? "&p=" + p : ""), { mode: "no-cors", keepalive: true }).then(go, go); } catch (e) { go(); }
+  setTimeout(go, 1200);
+})();
+</script>
+<noscript><a href="https://plans-with-paws.printify.me">Plans With Paws shop</a></noscript>
+</body></html>
